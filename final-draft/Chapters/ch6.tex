@@ -1,0 +1,119 @@
+\chapter{Refinement of Final Design}
+
+\section{Overview of Remaining Tasks}
+After the evaluation of the alternatives and selection of the plate girder alternative, there are several design components that remain. Each of these components will be analyzed and combined to create a finalized, cohesive bridge design.
+
+First, the most important remaining task, the refinement of the plate girder design to ensure a maximum performance ratio amongst the four beams. After utilizing rules of thumb in the preliminary calculations, the dimensions of the web and flange components will be optimized to not only provide sufficient capacity, but fulfill all of the Section 6.10 Proportion Limitations in~\cite{aashto7}.
+
+After determining that the girders' capacities are sufficient, the live load deflection limit of \(\frac{\textrm{L}}{800}\) must be evaluated. This could require slight modifications to the girder dimensions to ensure that the deflection will be under the provided limit.
+
+After the plate girder design has been finalized, the design and location of shear stiffeners need to be determined. This will help ensure the girder is performing adequately during the highest shear loads, at the abutments.
+
+Another task that remained was refining the reinforced concrete deck design, as the thickness of the wearing surface, in the alternatives phase, was significantly above the minimum value of \(\frac{1}{4}\) inch listed in Section 3.2.1 of~\cite{bridgedesignman}.
+
+
+\section{Summary of Design Calculations}
+
+There were three major components to finalizing the plate girder design: moment capacity check, shear capacity check, and the imposed live load deflection limit. The client provided a live load limit of \(\frac{\textrm{L}}{800}\). The maximum live load deflection for a 125 foot span, using this limit, was calculated to be 1.875 inches. Upon performing the live load deflection check with the girder dimensions used in the preliminary design, the girders were not within the stated limit.
+
+It was determined that thickening both flanges would allow for less deflection. Initially, the top flange was 16 inches wide by \(\frac{3}{4}\) inch thick, while the bottom flange was 16 inches wide by \(1\frac{1}{4}\) inch thick. Both flange thicknesses were optimized for the final girder design. After optimization to allow for appropriate deflection amounts, the top flange is now \(1\frac{1}{2}\) inch thick, while the bottom flange is \(1\frac{3}{4}\) inch thick. Thickening the flanges allowed for the girders to meet the deflection limit, with a total deflection of 1.731 inches. Overall, in terms of deflection, the performance ratio is 92\%.
+
+The design, using the updated flange dimensions, was then analyzed in terms of capacity. The ultimate moment and shear that the beams will experience were calculated to be 10,215.625 foot-kips and 335.09 kips, respectively. A plastic moment analysis was performed utilizing Table D6.1-1~\cite{aashto7} to determine which loading case applied to the project scenario and the location of the Plastic Neutral Axis (PNA). Case II was found to be valid for our project scenario; therefore, the PNA is located within the top flange of the girder. The formulas provided within Table D6.1-1\cite{aashto7} allowed for a plastic moment calculation of 10,924.141 foot-kips. However, after performing the checks in 6.10.7.1.2~\cite{aashto7}, it was observed that the nominal moment for the beam would not equal the plastic moment. Using the provided equation, the nominal moment was calculated to be 10,601.84 foot-kips.
+
+Therefore, the factored nominal moment of 10,601.84 foot-kips is greater than the ultimate moment of 10,215.625 foot-kips. Thus, the moment capacity for the plate girder is adequate. The performance ratio in terms of moment capacity is 96\%.
+
+In terms of shear capacity, it was determined that the webs of the girders would need a longitudinal stiffener located at 55 inches from the abutment. Utilizing Equation 6.10.9.3.2-2 in~\cite{aashto7}, the nominal shear was calculated to be 479.336 kips. The ultimate shear was previously calculated as 335.09 kips.
+
+Therefore, the factored nominal shear of 479.336 kips is greater than the ultimate shear of 335.09 kips. Thus, the shear capacity, while utilizing a longitudinal stiffener for the web, is adequate. In terms of the shear capacity, the performance ratio is 70\%
+
+After determining that the girder (with thicker flanges) met the deflection limit and had adequate shear and moment capacity, the girder design was finalized.
+
+\section{Final Design Description}
+
+The final design of the bridge spanning Bryce Creek, carrying Begley Road, is comprised of four steel plate girders, a reinforced concrete deck, diaphragms, shear studs, parapet walls, and elastomeric bearings.
+
+The steel plate girder design has been optimized since the preliminary design phase and these calculations were summarized in Section 6.2. The final steel plate girder dimensions are detailed in Table~\ref{tab:pgdimf} below.
+
+\begin{table}[H]
+\centering
+\caption{Plate Girder Components Dimensions}\label{tab:pgdimf}
+\vspace{0.5cm}
+\scalebox{1.0}{
+\begin{tabular}{lcc}
+\toprule\midrule
+\textbf{Component}              & \textbf{Width/Depth (in)}  & \textbf{Thickness (in)} \\ \midrule
+\emph{Top Flange}               & 16                         & \(1\frac{1}{2}\)           \\
+\emph{Web}                      & 55                         & \(\frac{1}{2}\)             \\
+\emph{Bottom Flange}            & 16                         & \(1\frac{13}{4}\)            \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+The girders will be constructed using AASHTO M 270 (ASTM 709M) Grade 50 steel. The girders will be placed with a 9 foot spacing, center-to-center. On each girder, there will be a \(\frac{1}{2}\) inch thick \(\times\) 4\(\frac{1}{2}\) inch wide \(\times\) 55 inches deep longitudinal stiffener, located 55 inch from the abutment at both ends of the bridge. We know from Appendix~\ref{misc:espan}, that shear studs will be spaced at 50 studs every 9 in., then transition to 12 inch spacing. The bridge will also contain diaphragms that are W30\(\times\)90, and are spaced at 31.25 feet apart which we also know from Appendix~\ref{misc:espan}.
+
+The steel plate girders will bear onto 8 elastomeric bearing pads. Once again according to Appendix~\ref{misc:espan}, the bearing pads should measure 18 inches \(\times\) 20 inches \(\times\) 5.875 inches thick, with \(\frac{1}{8}\) inch thick internal steel plates.
+
+The bridge deck surface will consist of an \(8\frac{1}{4}\) inch thick reinforced concrete deck, including a \(\frac{1}{4}\) inch integral wearing surface. The reinforced concrete will have a 28-day compressive strength of 4 \(\frac{\textrm{kip}}{\textrm{in}^{2}}\) and will be reinforced with \#5 steel reinforcing bars.  On the bridge deck will be two 24 inch wide WVDOT Type F barriers. The barriers will stand at a minimum height of 32 inches above the deck surface.
+
+\section{Cost Estimates and Scheduling}
+The cost analysis for the Steel Plate Girder Alternative includes all elements that were required to be designed and quantified in the final design of the project. Project excludes elements from other civil disciplines that were not structural properties. Section~\ref{sec:2.6} details all assumptions made during the alternatives phase and remain valid for the final phase for cost purposes. Due to a change in the sizing of the girders, a cost was found by taking a ratio of the cost per ton from the quote that was obtained during the alternatives phase. The following features and elements were added to the project cost since the alternatives phase: elastomeric bearing pads, girder stiffeners, class H concrete deck with rebar, and concrete type V barriers. Cost includes all material, equipment, and labor for all features. Concrete deck and rebar cost were obtained from WVDOH and are based off unit cost from previous works. Remaining added features and elements are based off unit cost from RSMeans cost book. The final cost for the completion of all structural elements came out to a direct cost of approximately \$660,000 and a project cost (which includes markups that are described in Section~\ref{sec:2.6}) of approximately \$985,000. A more detailed breakdown can be found in Appendix~\ref{appen:misc}.
+
+\begin{table}[H]
+\centering
+\caption{Steel Plate Girder Alternative Cost}
+\vspace{0.5cm}
+\scalebox{0.75}{
+\begin{tabular}{p{5cm} r r r r r}
+\toprule
+\midrule
+\textbf{Description}                                                                                                                & \textbf{Quantity} & \textbf{UOM}  & \textbf{Contractor} & \textbf{Direct Cost} &\textbf{Project Cost} \\ \midrule
+Steel Plate Girders: grade 50, 125 foot long                                                                                        & 4                 & EA            & Prime               & \$178,080            & \$264,243             \\ \midrule
+Steel Plate Girder Installation                                                                                                     & 80                & HR            & Prime               & \$69,291             & \$102,817              \\ \midrule
+Shipping for Steel Plate Girder                                                                                                     & 1                 & LS            & Sub                 & \$19,130             & \$35,483                \\ \midrule
+Steel Plate Girder Misc. (Bolts, Sheer Studs, etc                                                                                   & 1                 & LS            & Prime               & \$9,540              & \$14,156                 \\ \midrule
+M 164 Type 3 Bolts, \(\frac{7}{8}\) inch, diameter includes nut \& washer                                                           & 1312              & EA            & Prime               & \$8193               & \$12,157                  \\ \midrule
+Top Flange: Steel Plate, structural, for connections \&  Stiffeners, \(\frac{1}{2}\) ich T, shop fabricated, including shop primer  & 4898              & SI            & Prime               & \$973                & \$1,444                    \\ \midrule
+Bottom Flange: Steel Plate, structural, for connections \&  Stiffeners, 1 inch T, shop fabricated, including shop primer            & 9174              & SI            & Prime               & \$1768               & \$2623                      \\ \midrule
+Top Flange: Steel Plate, structural, for connections \&  Stiffeners, \(\frac{1}{2}\) inch T, shop fabricated, including shop primer & 12,240            & SI            & Prime               & \$2432               & \$3609                       \\ \midrule
+Splice Connection Installation, Crane-40 Ton                                                                                        & 4                 & EA            & Prime               & \$3168               & \$4701                        \\ \midrule
+Elastomeric Bearing Pad, 5/8 inch T layers with 5.875 inch T total                                                                  & 2,880             & SI            & Prime               & \$8,524              & \$12,648                       \\ \midrule
+Stiffeners: Steel plate, structural, for connections \& stiffeners, 1/2 inch T, shop fabricated, including shop primer              & 13.75             & SF            & Prime               & \$394                & \$584                           \\ \midrule
+Class H concrete Deck: Includes material, equipment, and labor                                                                      & 108.2             & CY            & Prime               & \$247,686            & \$367,528                        \\ \midrule
+Deck: Rebar including material and labor                                                                                            & 5,708.56          & LB            & Prime               & \$15,128             & \$22,447                          \\ \midrule
+Standard Type V Barrier includes material, equipment, and labor                                                                     & 32.5              & CY            & Prime               & \$25,929             & \$38,475                           \\ \midrule
+Concrete Class H Haunches                                                                                                           & 6.82              & CY            & Prime               & \$10,889             & \$16,158                            \\ \midrule
+Total                                                                                                                               &                   &               &                     & \$660,000            & \$985,000                            \\ \bottomrule
+\end{tabular}}
+\end{table}
+
+In order to properly schedule the construction sequence for the steel plate girder design, WV DOH Design Directive (DD) 803 was utilized. WV DOH DD-803 provided construction durations for various activities during the construction of the bridge. The individual activity with the longest duration was the plate girder fabrications at 106 work days. This was expected due to the large amount of welding and other labor involved in the fabrication process.
+
+The overall duration of the project was calculated to be 154 working days. This estimate is based on the construction durations provided by WV DOH DD-803. In summary, the project would take approximately 31 weeks to construct, assuming 5 day work weeks and 8 hour work days. The construction schedule for the steel plate girder design is detailed below in Table~\ref{tab:const-time}.
+
+\begin{table}[H]
+\centering
+\caption{Chart for Estimated Construction Time}\label{tab:const-time}
+\scalebox{0.65}{
+\begin{tabular}{lrrrrr}
+\toprule\midrule
+\textbf{Activity}                          & \textbf{Unit of Work} & \textbf{Production Rate} & \textbf{Work Days} & \textbf{Days Since Start} & \textbf{Days Remaining} \\\midrule
+Substructure Excavation                    & days                  & 4 days/bent              & 8 days             & 0                         & 8                        \\ \midrule
+Forming \& Pouring Footings                & days                  & 3 days/bent              & 6 days             & 8                         & 6                         \\ \midrule
+Forming \& Pouring Caps                    & days                  & 5 days/cap               & 10 days            & 14                        & 10                         \\ \midrule
+Curing Time for Caps                       & days                  & 5 days                   & 5 days             & 24                        & 5                           \\ \midrule
+Plate Girder Fabrications                  & days                  & 106 days                 & 106 days           & 0                         & 106                          \\ \midrule
+Placement of Elastomeric Bearing Pads      & days                  & 4 pads/day               & 2 days             & 29                        & 2                             \\ \midrule
+Setting Plate Girders                      & days                  & 4 girders/day            & 1 day              & 106                       & 1                              \\ \midrule
+Field Splicing Girder Connection           & days                  & 4 splices/day            & 1 day              & 107                       & 1                               \\ \midrule
+Bolting diaphragms                         & days                  & 3 days                   & 3 days             & 108                       & 3                                \\ \midrule
+Installing expansion joint                 & days                  & 3 days                   & 3 days             & 111                       & 3                                 \\ \midrule
+Forming, Pouring, Curing \& Stripping Deck & days                  & 10 days/40 ft span\footnotemark& 30 days            & 114                       & 30                                 \\ \midrule
+Grooving Bridge Deck                       & days                  & 1 day/span               & 3 days             & 114                       & 3                                   \\ \midrule
+Concrete Barrier Installation              & days                  & 40 ft/day                & 3 days             & 144                       & 3                                    \\ \midrule
+Approach Slab                              & days                  & 5 days/slab              & 10 days            & 144                       & 10                                    \\ \midrule\bottomrule
+                                           &                       &                          &                    & Total Duration (days)     & \textbf{154}                           \\
+                                           &                       &                          &                    & Total Work Weeks          & \textbf{30.8}                           \\ \bottomrule\bottomrule
+\end{tabular}}
+\end{table}
+
+\footnotetext{The assumption is being made that a ``span'' is 40 feet long, our bridge is just over three ``spans''}
